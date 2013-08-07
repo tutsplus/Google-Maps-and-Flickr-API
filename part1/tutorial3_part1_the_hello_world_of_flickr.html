@@ -12,7 +12,7 @@
 $(document).ready(function(){
 
 //Connects to the Flickr API and reads the results of the query into a JSON array. This query uses the 'flickr.people.getPublicPhotos' method to access all the photos in a particular person's user account. It passes the resultant JSON array of data to the 'displayImages1' function below.
-$.getJSON("http://api.flickr.com/services/rest/?method=flickr.people.getPublicPhotos&api_key=YOUR_FLICKR_API_KEY_HERE&user_id=YOUR_FLICKR_ID_HERE&format=json&jsoncallback=?", displayImages1);
+$.getJSON("http://api.flickr.com/services/rest/?method=flickr.people.getPublicPhotos&api_key=1c9f777eb7446f34a7261dc1a54be4b2&user_id=99599718@N05&format=json&jsoncallback=?", displayImages1);
 
 //This function actually does something with the data after it has been read in from the Flickr API.	
 function displayImages1(data) {	

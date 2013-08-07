@@ -15,7 +15,7 @@
 
 <!--Linking to the Google Maps API-->
 <script type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&sensor=true">
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPHuX3mEiwT882qPscfVccvtFMFXH31EY&sensor=true">
 </script>
 
 <script type="text/javascript">
@@ -26,7 +26,7 @@ var long = 0;
 $(document).ready(function(){
 
 //Connects to the Flickr API and reads the results of the query into a JSON array. This query uses the 'flickr.photos.search' method to access all the photos in a particular person's user account. It also uses arguments to read in the latitude and longitude of each picture. It passes the resultant JSON array to the 'displayImages3' function below.
-$.getJSON("http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=YOUR_FLICKR_API_KEY_HERE&user_id=YOUR_FLICKR_ID_HERE&has_geo=1&extras=geo&format=json&jsoncallback=?", displayImages3);
+$.getJSON("http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=1c9f777eb7446f34a7261dc1a54be4b2&user_id=99599718@N05&has_geo=1&extras=geo&format=json&jsoncallback=?", displayImages3);
 
 function displayImages3(data){
 	

@@ -10,7 +10,7 @@
 $(document).ready(function(){
 
 //Connects to the Flickr API and reads the results of the query into a JSON array. This query uses the 'flickr.photos.search' method to access all the photos on Flickr tagged with the word 'kitten'. It passes the resultant JSON array to the 'displayImages2' function below.
-$.getJSON("http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=YOUR_FLICKR_API_KEY_HERE&tags=kitten&format=json&jsoncallback=?", displayImages2);
+$.getJSON("http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=1c9f777eb7446f34a7261dc1a54be4b2&tags=kitten&format=json&jsoncallback=?", displayImages2);
 
 //This function actually does something with the data after it has been read in from the Flickr API.	
 function displayImages2(data){

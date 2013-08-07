@@ -51,7 +51,8 @@
 
 
 <!--Connect to the google maps api using your api key-->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY_HERE&sensor=true"></script>
+<!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_GOES_HERE&sensor=true"></script>-->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPHuX3mEiwT882qPscfVccvtFMFXH31EY&sensor=true"></script>
 
 <!--Connect to the infobox javascript library. This is used later to create the pop-up windows -->
 <script src="infobox/infobox.js" type="text/javascript"></script>
@@ -1074,7 +1075,7 @@ function closeSmallEvents (){
 //Function that starts the process of loading the images using the Flickr API.
 function loadPhotos(){
 //Connects to the Flickr API and reads the results of the query into a JSON array. This query uses the 'flickr.photos.search' method to access all the photos in a particular person's user account. It also uses arguments to read in the latitude and longitude of each picture. It passes the resultant JSON array to the 'displayImages' function below.
-$.getJSON("http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=YOUR_FLICKR_API_KEY_HERE&user_id=YOUR_FLICKR_ID_HERE&has_geo=1&extras=geo&format=json&jsoncallback=?", displayImages);
+$.getJSON("http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=1c9f777eb7446f34a7261dc1a54be4b2&user_id=99599718@N05&has_geo=1&extras=geo&format=json&jsoncallback=?", displayImages);
 }
 
 function displayImages(data){	

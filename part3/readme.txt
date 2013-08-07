@@ -1,0 +1,1 @@
+The files in this folder were used in the "Hooking Flickr up to the UK festivals map" section.

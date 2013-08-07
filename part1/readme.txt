@@ -1,0 +1,1 @@
+The files in this folder were used in the "The ‘hello world’ of the Flickr API" section.

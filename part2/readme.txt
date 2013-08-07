@@ -1,0 +1,1 @@
+The files in this folder were used in the "Creating a the Google and Flickr mashup" section.
